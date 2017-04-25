@@ -1,0 +1,20 @@
+{
+  "name": "prototype-jacquie-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node setup",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "google-map-bounds-limit": "^0.1.0",
+    "jquery": "^3.2.1",
+    "uglify-js": "^2.8.22",
+    "underscore": "^1.8.3"
+  }
+}
