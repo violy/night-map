@@ -30,8 +30,8 @@ jQuery(document).ready(function($) {
             }})
         ).then(function(){
             initMap();
-            initClubs();
             initZones();
+            initClubs();
         })
     }
 
@@ -42,9 +42,11 @@ jQuery(document).ready(function($) {
         );
         map = new google.maps.Map(document.getElementById('map'), {
             //zoom: 12,
+            disableDefaultUI: true,
             styles: styles
         });
         map.fitBounds(parisBounds);
+        //limitMap(map, parisBounds);
         zoom = map.get('zoom');
         map.addListener('zoom_changed',zoomChanged);
     }
@@ -62,7 +64,7 @@ jQuery(document).ready(function($) {
                     strokeWeight: 0,
                     fillColor: zone.properties.fill,
                     fillOpacity: 0.4,
-                    zIndex:1
+                    zIndex:200,
             });
             zones.push(polygon);
         });
@@ -76,11 +78,13 @@ jQuery(document).ready(function($) {
 
             var coord = club.geometry.coordinates,
                 clubProperties = club.properties,
+                title = clubProperties.title,
                 musicStyle = clubProperties['music-style'],
                 musicStyleData = _(musicStyles).findWhere({type:musicStyle}),
                 position = new google.maps.LatLng(coord[1],coord[0]),
-                fillColor = musicStyleData ? musicStyleData.color : '#fff',
-                marker = new google.maps.Marker({
+                fillColor = musicStyleData ? musicStyleData.color : '#fff';
+
+            var  marker = new google.maps.Marker({
                 position: position,
                 icon: {
                     path: google.maps.SymbolPath.CIRCLE,
@@ -91,6 +95,18 @@ jQuery(document).ready(function($) {
                 },
                 map: map
             });
+
+            var label = new MapLabel({
+                text: title,
+                position: position,
+                //map: map,
+                fontColor:fillColor,
+                strokeWeight:0,
+                fontSize: 10,
+                align: 'right',
+                zIndex:100
+            });
+
             clubProperties.color = fillColor;
             clubProperties.musicStyle = clubProperties['music-style'];
 
@@ -102,7 +118,7 @@ jQuery(document).ready(function($) {
                 infoWindow.open(map, marker);
             });
 
-            clubs.push(marker);
+            clubs.push({marker:marker,label:label});
             if(!musicStyleData) console.log(club.properties)
 
         });
@@ -113,7 +129,12 @@ jQuery(document).ready(function($) {
         _(zones).each(function(polygon){
             polygon.set('fillOpacity',zoom<16 ? 0.4 : 0.2);
         });
-        _(clubs).each(function(marker){
+        _(clubs).each(function(club){
+            if(zoom<14){
+                club.label.setMap(null);
+            }else{
+                club.label.setMap(map);
+            }
             //marker.set('icon',{scale:zoom<16 ? 3 : 6});
         });
         console.log(map.get('zoom'));
