@@ -1,0 +1,756 @@
+
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "L'Arc",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2985458374023438,
+          48.87552621826616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Queen",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.302032709121704,
+          48.870868827622395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Memphis",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3486602306365967,
+          48.87026192357957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "ZigZag",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.304210662841797,
+          48.86903397893148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Les Planches",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3100900650024414,
+          48.87150395187707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Concrète ",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3709869384765625,
+          48.842774159702614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "La Java",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3733794689178462,
+          48.87074885880235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Le Nuba",
+        "music-style": "electro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3694097995758057,
+          48.84079705672029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Nuits Fauves",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3700320720672607,
+          48.840443994403515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Wanderlust",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3697638511657715,
+          48.840627587118846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Petit Bain",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3766517639160156,
+          48.83469578982018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Batofar",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.378067970275879,
+          48.83366471530135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Gibus",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3655796051025386,
+          48.868201217711764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Badaboum",
+        "music-style": "electro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.375664710998535,
+          48.85350564266233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Divand du Monde",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3396265506744385,
+          48.88256793397788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Mix Club",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3214304447174072,
+          48.84264000161142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Palais Maillot",
+        "music-style": "hiphop-rnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.281540632247925,
+          48.87839100378966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Le Baron",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.299661636352539,
+          48.86590752405441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Chez Regine",
+        "music-style": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3062705993652344,
+          48.87172977189137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Silencio",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3432528972625732,
+          48.86888577667734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Djoon",
+        "music-style": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3701071739196777,
+          48.83580452435669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Rex Club",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.347726821899414,
+          48.87065006073456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Bus Palladium",
+        "music-style": "rock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3347127437591553,
+          48.88103690378033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "A la folie Paris",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3851168155670166,
+          48.89700105744533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Maison Blanche",
+        "music-style": "hiphop-rnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3038244247436523,
+          48.8657946010359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Cabaret Sauvage",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3938286304473873,
+          48.888966709545564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Supersonic",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.369946241378784,
+          48.8498840242849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Gaité Lyrique",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3535847663879395,
+          48.86693087729111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Alternateev",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.376866340637207,
+          48.86901986445001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Yoyo",
+        "music-style": "electro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2956490516662593,
+          48.864799455918046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Le Tigre",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3355066776275635,
+          48.864707703953364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Le Carmen",
+        "music-style": "hiphop-rnb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3349595069885254,
+          48.88200350433625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "La Rothonde Stalingrad",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3690128326416016,
+          48.88400720073239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Point Ephemere ",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3686909675598145,
+          48.881340291367756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Glazart",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.386951446533203,
+          48.89910289498811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Panic Room",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.368326187133789,
+          48.85891287371309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Trabendo",
+        "music-style": "multi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.390470504760742,
+          48.888113116472965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "La Belleviloise",
+        "music-style": "rap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3923587799072266,
+          48.86817298827499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Faust",
+        "music-style": "electro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136734962463374,
+          48.86409366724443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Salò",
+        "music-style": "electro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3432421684265137,
+          48.868779917655644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "La Machine du Moulin Rouge",
+        "music-style": "electro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3328781127929688,
+          48.883598001653525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Duc de Lombards",
+        "music-style": "jazz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3493361473083496,
+          48.860035189203565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Grand Rivage",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3706114292144775,
+          48.839921457607375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7E7E7E",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "Pigallion",
+        "music-style": "techno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3372018337249756,
+          48.88201761515492
+        ]
+      }
+    }
+  ]
+}
+

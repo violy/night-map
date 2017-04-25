@@ -2,13 +2,25 @@ jQuery(document).ready(function($) {
 
     var map,zoom,
         styles,
-        zones = [],zonesJSON;
+        musicStyles,
+        clubs = [], clubsJSON,
+        zones = [], zonesJSON;
 
     function loadJsonFiles(){
         $.when(
             $.ajax('json/styles.json',{complete:function(req,status){
                 if(status == 'success'){
                     styles = req.responseJSON;
+                }
+            }}),
+            $.ajax('json/clubs.json',{complete:function(req,status){
+                if(status == 'success'){
+                    clubsJSON = req.responseJSON;
+                }
+            }}),
+            $.ajax('json/music-styles.json',{complete:function(req,status){
+                if(status == 'success'){
+                    musicStyles = req.responseJSON;
                 }
             }}),
             $.ajax('json/zones.json',{complete:function(req,status){
@@ -18,6 +30,7 @@ jQuery(document).ready(function($) {
             }})
         ).then(function(){
             initMap();
+            initClubs();
             initZones();
         })
     }
@@ -55,10 +68,53 @@ jQuery(document).ready(function($) {
         });
     }
 
+    function initClubs() {
+
+        var infoWindowTemplate = _("<h5><%= title %></h5><div style='color:<%= color %>'><%= musicStyle %></div>").template();
+
+        _(clubsJSON.features).each(function(club){
+
+            var coord = club.geometry.coordinates,
+                clubProperties = club.properties,
+                musicStyle = clubProperties['music-style'],
+                musicStyleData = _(musicStyles).findWhere({type:musicStyle}),
+                position = new google.maps.LatLng(coord[1],coord[0]),
+                fillColor = musicStyleData ? musicStyleData.color : '#fff',
+                marker = new google.maps.Marker({
+                position: position,
+                icon: {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    strokeWeight:0,
+                    fillColor:fillColor,
+                    fillOpacity:1,
+                    scale:3,
+                },
+                map: map
+            });
+            clubProperties.color = fillColor;
+            clubProperties.musicStyle = clubProperties['music-style'];
+
+            var infoWindow = new google.maps.InfoWindow({
+                content: infoWindowTemplate(club.properties)
+            });
+
+            marker.addListener('click', function() {
+                infoWindow.open(map, marker);
+            });
+
+            clubs.push(marker);
+            if(!musicStyleData) console.log(club.properties)
+
+        });
+    }
+
     function zoomChanged(){
         zoom = map.get('zoom');
         _(zones).each(function(polygon){
             polygon.set('fillOpacity',zoom<16 ? 0.4 : 0.2);
+        });
+        _(clubs).each(function(marker){
+            //marker.set('icon',{scale:zoom<16 ? 3 : 6});
         });
         console.log(map.get('zoom'));
     }
