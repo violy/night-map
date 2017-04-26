@@ -63,3 +63,4 @@ typings/
 .sass-cache/
 *.css.map
 
+elements/

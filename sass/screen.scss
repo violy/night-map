@@ -5,3 +5,18 @@
   width:100vw;
   height:100vh;
 }
+
+.site-logo{
+  color: transparent;
+  width:209px;
+  height:58px;
+  position: fixed;
+  top: 20px;
+  left:20px;
+  margin: 0;
+  pointer-events: none;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-image: url('../img/logoclubmape.svg');
+  span{display: none;}
+}

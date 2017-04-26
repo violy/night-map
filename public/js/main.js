@@ -100,10 +100,12 @@ jQuery(document).ready(function($) {
                 text: title,
                 position: position,
                 //map: map,
+                left:10,
+                top:20,
                 fontColor:fillColor,
                 strokeWeight:0,
                 fontSize: 10,
-                align: 'right',
+                align: 'left',
                 zIndex:100
             });
 
